@@ -1,0 +1,60 @@
+.singleproject {
+  width: 330px;
+  height: 450px;
+  padding: 10px;
+  background-color: #fff;
+  color: rgb(58, 58, 58);
+  margin: 10px 0;
+  border-top: 3px solid #8931ef;
+}
+
+.singleproject:hover {
+  background-color: #fff;
+  transition: 0.5s;
+}
+
+.singleproject img {
+  width: 100%;
+  height: 200px;
+}
+.singleproject h4 {
+  text-align: center;
+  color: #8931ef;
+  margin: 10px 0;
+}
+.singleproject h5 {
+  margin-bottom: 10px;
+}
+
+.stack {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.link-btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 10px auto 0;
+}
+.link-btns button {
+  background-color: transparent;
+  border: none;
+  border: 1px solid #8931ef;
+  outline: none;
+  padding: 5px 10px;
+  color: #8931ef;
+  cursor: pointer;
+}
+.link-btns button:hover {
+  background-color: #8931ef;
+  color: #fff;
+  transition: 0.5s;
+}
+
+@media (max-width: 320px) {
+  .singleproject img {
+    height: auto;
+  }
+}

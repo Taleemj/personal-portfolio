@@ -1,0 +1,11 @@
+.text-animate {
+  min-width: 10px;
+  display: inline-block;
+}
+
+.text-animate:hover {
+  animation: rubberBand;
+
+  animation-duration: 1s;
+  color: purple;
+}

@@ -1,0 +1,105 @@
+.portfolio-container {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.8)
+    ),
+    url("../../assets/lightbg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: auto;
+  position: relative;
+  width: 100%;
+  padding: 2rem 0;
+}
+.portfolio-container h1 .text-animate:hover {
+  animation: rubberBand;
+  animation-duration: 1s;
+  color: #8931ef;
+}
+.particles-light {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  position: absolute;
+}
+.portfolio-container h1 {
+  padding-top: 3.5rem;
+  font-size: 5rem;
+  color: #000;
+  text-align: center;
+  position: relative;
+}
+.portfolio-container h1::before {
+  content: "<h1>";
+  color: #8931ef;
+  position: absolute;
+  left: 30%;
+  font-size: 13px;
+  text-transform: lowercase;
+  opacity: 0.6;
+}
+.portfolio-container h1::after {
+  content: "</h1>";
+  color: #8931ef;
+  position: absolute;
+  right: 30%;
+  font-size: 13px;
+  bottom: 0;
+  text-transform: lowercase;
+  opacity: 0.6;
+}
+.portfolio {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.p-buttons {
+  margin: 2rem auto;
+  width: 70vw;
+}
+
+.p-buttons button {
+  border: 1px solid #8931ef;
+  padding: 5px 10px;
+  font-weight: 500;
+  margin-right: 1rem;
+  font-size: 16px;
+  color: #8931ef;
+  cursor: pointer;
+}
+.p-buttons button:hover {
+  background-color: #8931ef;
+  color: #fff;
+  transition: 0.5s;
+}
+@media (max-width: 1050px) {
+  .portfolio {
+    width: 80%;
+  }
+}
+@media (max-width: 810px) {
+  .portfolio-container h1 {
+    padding-top: 3rem;
+    font-size: 3rem;
+  }
+  .p-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .portfolio {
+    width: 90%;
+  }
+}
+@media (max-width: 281px) {
+  .p-buttons {
+    width: 95vw;
+  }
+}
