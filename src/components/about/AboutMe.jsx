@@ -44,17 +44,16 @@ const AboutMe = () => {
             experimenting with{" "}
             <span style={{ color: "#8931ef" }}>technologies</span> such as react
             and inhale a wide variety of potentially useful information through
-            different platforms. I build websites that delight and inform and
-            try to do it well.
+            different platforms.
           </p>
           <br />
+          <br />
           <p>
-            Hi, my name is Taleem Mankuer and i am an aspiring developer and
-            student. I enjoy finding creative solutions to problems and spend my
-            time experimenting with technologies such as react and inhale a wide
-            variety of potentially useful information through different
-            platforms. I build websites that delight and inform and try to do it
-            well.
+            I enjoy making conections and trying out new things, i love to
+            increase my skills and knowledge and would love to advance in my
+            career and a developer. I am open for any
+            <span style={{ color: "#8931ef" }}> opportunities</span>. I build
+            websites that delight and inform and try give it my all.
           </p>
           <br />
           <div className="technologies">
@@ -84,9 +83,11 @@ const AboutMe = () => {
                 <li>Firebase</li>
                 <li>Git/Github</li>
               </ul>
-              <img src={laptop} alt="" />
             </div>
           </div>
+        </div>
+        <div className="laptop">
+          <img src={laptop} alt="" />
         </div>
 
         <div className="cube">

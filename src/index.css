@@ -22,6 +22,7 @@ code {
 .App::before {
   content: "<html>";
   color: #8931ef;
+  z-index: 13289;
   opacity: 0.4;
   position: absolute;
   top: 8%;

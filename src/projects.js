@@ -3,17 +3,17 @@ export const reactprojects = [
     id: 1,
     title: "CryptoPlanet",
     description:
-      "Moviehub is a movie web application that uses the moviedb api to search for upto date movies, tv series, their details and trailers based on popularity, genres and search terms with a fully functional pagination",
+      "Crypto planet is a web application build with the help of rapid api coinranking api and bing news, it helps crypto enthusiasts with the latest cryptocurrencies crypto news and crypto details about a specific crypto currency.",
     tag: ["Reactjs", "Ant Design", "CSS"],
-    codeLink: "https://github.com/Taleemj/moviehub",
-    demoLink: "https://moviehub-0.web.app",
-    img: "images/moviehub.png",
+    codeLink: "https://github.com/Taleemj/cryptoPlanet",
+    demoLink: "https://crypto-planet.netlify.app",
+    img: "images/crypto.png",
   },
   {
     id: 2,
     title: "MOVIEHUB",
     description:
-      "Moviehub is a movie web application that uses the moviedb api to search for upto date movies, tv series, their details and trailers based on popularity, genres and search terms with a fully functional pagination",
+      "Moviehub is a movie web application that uses the moviedb api to search for upto date movies, tv series, their details and trailers based on popularity, genres and search terms with a fully functional pagination.",
     tag: ["Reactjs", "Material UI", "CSS"],
     codeLink: "https://github.com/Taleemj/moviehub",
     demoLink: "https://moviehub-0.web.app",

@@ -1,8 +1,7 @@
 .contact-container {
   width: 100%;
   height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("../../assets/darkbg.jpg");
+  background-image: url("../../assets/background.svg");
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
@@ -152,6 +151,10 @@ form button:hover {
   height: 600px;
   margin-right: 25px;
   border: 1px solid #8931ef;
+}
+.leaflet-container {
+  width: 100%;
+  height: 100%;
 }
 .map::after {
   content: "</html>";

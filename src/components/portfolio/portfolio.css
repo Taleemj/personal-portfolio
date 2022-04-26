@@ -1,9 +1,5 @@
 .portfolio-container {
-  background-image: linear-gradient(
-      rgba(255, 255, 255, 0.8),
-      rgba(255, 255, 255, 0.8)
-    ),
-    url("../../assets/lightbg.jpg");
+  background-image: url("../../assets/whitebg.svg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -66,12 +62,12 @@
 }
 
 .p-buttons button {
-  border: 1px solid #8931ef;
+  border: 1px solid #000;
   padding: 5px 10px;
   font-weight: 500;
   margin-right: 1rem;
   font-size: 16px;
-  color: #8931ef;
+  color: #000;
   cursor: pointer;
 }
 .p-buttons button:hover {

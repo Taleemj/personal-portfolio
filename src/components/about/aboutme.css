@@ -66,6 +66,17 @@
   margin-right: 5px;
 }
 
+.laptop {
+  position: absolute;
+  top: 70%;
+  left: 60%;
+  z-index: -1;
+}
+.laptop img {
+  width: 158px;
+  animation: float 4s ease infinite;
+}
+
 .particles {
   top: 0;
   left: 0;
@@ -149,15 +160,6 @@
   }
 }
 
-.list img {
-  width: 40px;
-  position: absolute;
-  top: 10%;
-  left: 40%;
-  padding-left: 40px;
-  animation: float 4s ease infinite;
-}
-
 @keyframes float {
   0% {
     transform: translateY(-10px);
@@ -221,6 +223,10 @@
     width: 95vw;
     flex-direction: column;
     height: auto;
+  }
+  .laptop {
+    top: 55%;
+    left: 30%;
   }
   .cube {
     width: 100%;

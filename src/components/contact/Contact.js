@@ -3,6 +3,9 @@ import "./contact.css";
 import email from "../../assets/email.png";
 import phone from "../../assets/phone.png";
 import AnimatedLetters from "../Animated/AnimatedLetters";
+import configDark from "../../assets/particlejs-config-dark.json";
+import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import Particles from "react-tsparticles";
 import emailjs from "@emailjs/browser";
 import "animate.css";
 
@@ -25,16 +28,14 @@ const Contact = () => {
         formref.current,
         "UMCV1YwfNUNEnBTqj"
       )
-      .then(
-        (message) => console.log(message),
-        alert("thank you, your message has been sent succefully")
-      )
+      .then(alert("thank you, your message has been sent succefully"))
       .then(
         (nameref.current.value = ""),
         (emailref.current.value = ""),
         (messageref.current.value = ""),
         (subjectref.current.value = "")
-      );
+      )
+      .catch((err) => alert("something went wrong try again"));
   };
 
   return (
@@ -50,7 +51,7 @@ const Contact = () => {
         <p className="animate__animated animate__slideInLeft animate__delay-2s">
           I am interested and available for freelance, part time or full time
           work feel free to leave me a message about any opportunities or just
-          say hii.
+          say hii &#128075; .
         </p>
         <div className="contact">
           <div className="email">
@@ -100,7 +101,14 @@ const Contact = () => {
           <button type="submit">Send Message</button>
         </form>
       </div>
-      <div className="map">fvdigkofmd</div>
+      <div className="map">
+        <MapContainer center={[4.845927, 31.589679]} zoom={13}>
+          <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+          <Marker position={[4.845927, 31.589679]}>
+            <Popup>yeah I live over here :)</Popup>
+          </Marker>
+        </MapContainer>
+      </div>
     </div>
   );
 };
