@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./header.css";
 import menu from "../../assets/menu.png";
 import times from "../../assets/times.png";
+import logo from "../../assets/tm.png";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -9,8 +10,7 @@ const Header = () => {
   return (
     <div className="header-container">
       <div className="logo">
-        {/* <img src={logo} alt="TM" /> */}
-        TM
+        <img src={logo} alt="TM" />
       </div>
       {menuOpen ? (
         <div className="nav2">

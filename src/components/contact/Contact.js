@@ -3,9 +3,7 @@ import "./contact.css";
 import email from "../../assets/email.png";
 import phone from "../../assets/phone.png";
 import AnimatedLetters from "../Animated/AnimatedLetters";
-import configDark from "../../assets/particlejs-config-dark.json";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
-import Particles from "react-tsparticles";
 import emailjs from "@emailjs/browser";
 import "animate.css";
 
@@ -105,7 +103,7 @@ const Contact = () => {
         <MapContainer center={[4.845927, 31.589679]} zoom={13}>
           <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
           <Marker position={[4.845927, 31.589679]}>
-            <Popup>yeah I live over here :)</Popup>
+            <Popup>yeah I live here, come over for a visit :)</Popup>
           </Marker>
         </MapContainer>
       </div>

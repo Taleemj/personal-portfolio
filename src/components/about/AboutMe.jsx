@@ -7,6 +7,7 @@ import css from "../../assets/css.png";
 import js from "../../assets/js.png";
 import git from "../../assets/git.png";
 import react from "../../assets/react.png";
+import sass from "../../assets/sass.png";
 import AnimatedLetters from "../Animated/AnimatedLetters";
 import "animate.css";
 
@@ -39,9 +40,9 @@ const AboutMe = () => {
           </h1>
           <p>
             Hi, my name is Taleem Mankuer and i am an aspiring{" "}
-            <span style={{ color: "#8931ef" }}>developer</span> and student. I
-            enjoy finding creative solutions to problems and spend my time
-            experimenting with{" "}
+            <span style={{ color: "#8931ef" }}>developer</span> and student
+            pursuing a career in web development. I enjoy finding creative
+            solutions to problems and spend my time experimenting with{" "}
             <span style={{ color: "#8931ef" }}>technologies</span> such as react
             and inhale a wide variety of potentially useful information through
             different platforms.
@@ -93,19 +94,19 @@ const AboutMe = () => {
         <div className="cube">
           <div className="cube-spinner">
             <div className="face1">
-              <img src={react} alt="" />
+              <img src={html} alt="" />
             </div>
             <div className="face2">
               <img src={js} alt="" />
             </div>
             <div className="face3">
-              <img src={html} alt="" />
+              <img src={react} alt="" />
             </div>
             <div className="face4">
               <img src={git} alt="" />
             </div>
             <div className="face5">
-              <img src={react} alt="" />
+              <img src={sass} alt="" />
             </div>
             <div className="face6">
               <img src={css} alt="" />

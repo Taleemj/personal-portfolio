@@ -12,7 +12,7 @@
 }
 .contact-container::after {
   content: "</body>";
-  color: #8931ef;
+  color: purple;
   opacity: 0.6;
   position: absolute;
   bottom: 3%;
@@ -22,7 +22,7 @@
   display: flex;
 }
 .contact div {
-  background-color: rgb(66, 66, 66);
+  background-color: rgb(29, 29, 29);
   height: 45px;
   padding: 0 10px;
   color: #fff;
@@ -43,7 +43,7 @@
 }
 
 .info h2 {
-  color: #8931ef;
+  color: purple;
   font-size: 3rem;
   padding: 10px 0;
   position: relative;
@@ -59,7 +59,7 @@
 }
 .info h2::before {
   content: "<h1>";
-  color: #8931ef;
+  color: purple;
   position: absolute;
   top: -5px;
   left: -10px;
@@ -69,7 +69,7 @@
 }
 .info h2::after {
   content: "</h1>";
-  color: #8931ef;
+  color: purple;
   position: absolute;
   bottom: -5px;
   left: -10px;
@@ -87,7 +87,7 @@ form {
 }
 form::before {
   content: "<form>";
-  color: #8931ef;
+  color: purple;
   opacity: 0.6;
   position: absolute;
   top: -20px;
@@ -95,7 +95,7 @@ form::before {
 }
 form::after {
   content: "</form>";
-  color: #8931ef;
+  color: purple;
   opacity: 0.6;
   position: absolute;
   bottom: -15px;
@@ -106,7 +106,7 @@ textarea {
   width: 100%;
   height: 50px;
   color: #fff;
-  background-color: rgb(66, 66, 66);
+  background-color: rgb(29, 29, 29);
   border: none;
   outline: none;
   margin-bottom: 5px;
@@ -117,7 +117,7 @@ form textarea {
 }
 form input:focus,
 form textarea:focus {
-  outline: 1px solid #8931ef;
+  outline: 1px solid purple;
 }
 form ul {
   list-style: none;
@@ -134,15 +134,15 @@ form button {
   padding: 10px;
   background-color: transparent;
   outline: none;
-  border: 1px solid #8931ef;
-  color: #8931ef;
+  border: 1px solid purple;
+  color: purple;
   float: right;
   cursor: pointer;
   align-self: flex-end;
   margin-top: 5px;
 }
 form button:hover {
-  background-color: #8931ef;
+  background-color: purple;
   color: #fff;
   transition: 0.5s;
 }
@@ -150,7 +150,7 @@ form button:hover {
   width: 50%;
   height: 600px;
   margin-right: 25px;
-  border: 1px solid #8931ef;
+  background-color: #8931ef;
 }
 .leaflet-container {
   width: 100%;
@@ -158,7 +158,7 @@ form button:hover {
 }
 .map::after {
   content: "</html>";
-  color: #8931ef;
+  color: purple;
   opacity: 0.6;
   position: absolute;
   bottom: 0;

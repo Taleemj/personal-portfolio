@@ -67,7 +67,7 @@ const Main = () => {
                 idx={3}
               />
             </h3>
-            <h1 className="animate__animated animate__slideInLeft animate__delay-3s">
+            <h1 className="animate__animated animate__slideInRight animate__delay-3s">
               <AnimatedLetters
                 letterClass={letterClass}
                 wordArray={jobArray}
@@ -95,7 +95,7 @@ const Main = () => {
               </a>
             </div>
           </div>
-          <div className="animate__animated animate__fadeIn animate__delay-2s  hero-img">
+          <div className="animate__animated animate__fadeIn animate__delay-5s  hero-img">
             <img src={laptop} alt="" />
           </div>
         </div>

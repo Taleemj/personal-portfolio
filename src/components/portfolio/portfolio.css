@@ -11,7 +11,7 @@
 .portfolio-container h1 .text-animate:hover {
   animation: rubberBand;
   animation-duration: 1s;
-  color: #8931ef;
+  color: purple;
 }
 .particles-light {
   top: 0;
@@ -30,7 +30,7 @@
 }
 .portfolio-container h1::before {
   content: "<h1>";
-  color: #8931ef;
+  color: purple;
   position: absolute;
   left: 30%;
   font-size: 13px;
@@ -39,7 +39,7 @@
 }
 .portfolio-container h1::after {
   content: "</h1>";
-  color: #8931ef;
+  color: purple;
   position: absolute;
   right: 30%;
   font-size: 13px;
