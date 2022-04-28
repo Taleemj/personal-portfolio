@@ -26,7 +26,7 @@ const Contact = () => {
         formref.current,
         "UMCV1YwfNUNEnBTqj"
       )
-      .then(alert("thank you, your message has been sent succefully"))
+      .then(alert("thank you, your message has been sent successfully"))
       .then(
         (nameref.current.value = ""),
         (emailref.current.value = ""),
