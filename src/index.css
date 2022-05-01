@@ -1,21 +1,43 @@
+@import "animate.css";
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("./assets/fonts/helvetica-neu.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "La Belle Aurore";
+  src: url("./assets/fonts/LaBelleAurore.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Coolvetica";
+  src: url("./assets/fonts/CoolveticaRg-Regular.woff2") format("woff2");
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  font-family: "karla", sans-serif;
 }
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue" sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
 }
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Coolvetica";
+  font-weight: 600;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
@@ -23,8 +45,10 @@ code {
 .App::before {
   content: "<html>";
   color: #8931ef;
+  font-family: "La Belle Aurore";
   z-index: 13289;
-  opacity: 0.4;
+  opacity: 0.6;
+  font-size: 20px;
   position: absolute;
   top: 8%;
   left: 5%;
@@ -52,7 +76,7 @@ code {
 }
 @media (max-width: 855px) {
   .App::before {
-    top: 5.5%;
+    top: 4%;
     left: 2%;
   }
 }

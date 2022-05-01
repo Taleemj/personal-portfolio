@@ -5,6 +5,7 @@
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
+  overflow-y: hidden;
   padding: 3rem 0;
   position: relative;
   display: flex;
@@ -12,10 +13,11 @@
 }
 .contact-container::after {
   content: "</body>";
-  color: purple;
+  color: #8931ef;
   opacity: 0.6;
   position: absolute;
-  bottom: 3%;
+  bottom: 1%;
+  font-family: "La Belle Aurore";
   left: 3%;
 }
 .contact {
@@ -43,39 +45,43 @@
 }
 
 .info h2 {
-  color: purple;
+  color: #8931ef;
   font-size: 3rem;
   padding: 10px 0;
   position: relative;
   margin: 15px 0;
 }
 .info .text-animate:hover {
-  color: #fff;
+  color: purple;
 }
 .info p {
   color: #fff;
   width: 90%;
+  background-color: #000;
   margin: 10px 0;
+  padding: 20px;
 }
 .info h2::before {
   content: "<h1>";
-  color: purple;
+  color: #8931ef;
   position: absolute;
+  font-family: "La Belle Aurore";
   top: -5px;
   left: -10px;
   font-size: 13px;
   text-transform: lowercase;
-  opacity: 0.4;
+  opacity: 0.6;
 }
 .info h2::after {
   content: "</h1>";
-  color: purple;
+  color: #8931ef;
   position: absolute;
   bottom: -5px;
   left: -10px;
+  font-family: "La Belle Aurore";
   font-size: 13px;
   text-transform: lowercase;
-  opacity: 0.4;
+  opacity: 0.6;
 }
 
 form {
@@ -87,18 +93,20 @@ form {
 }
 form::before {
   content: "<form>";
-  color: purple;
+  color: #8931ef;
   opacity: 0.6;
+  font-family: "La Belle Aurore";
   position: absolute;
   top: -20px;
   left: -5px;
 }
 form::after {
   content: "</form>";
-  color: purple;
+  color: #8931ef;
   opacity: 0.6;
+  font-family: "La Belle Aurore";
   position: absolute;
-  bottom: -15px;
+  bottom: -10px;
   left: -5px;
 }
 form input,
@@ -117,7 +125,7 @@ form textarea {
 }
 form input:focus,
 form textarea:focus {
-  outline: 1px solid purple;
+  border-bottom: 2px solid #8931ef;
 }
 form ul {
   list-style: none;
@@ -134,15 +142,15 @@ form button {
   padding: 10px;
   background-color: transparent;
   outline: none;
-  border: 1px solid purple;
-  color: purple;
+  border: 1px solid #8931ef;
+  color: #8931ef;
   float: right;
   cursor: pointer;
   align-self: flex-end;
   margin-top: 5px;
 }
 form button:hover {
-  background-color: purple;
+  background-color: #8931ef;
   color: #fff;
   transition: 0.5s;
 }
@@ -158,10 +166,11 @@ form button:hover {
 }
 .map::after {
   content: "</html>";
-  color: purple;
+  color: #8931ef;
   opacity: 0.6;
   position: absolute;
-  bottom: 0;
+  font-family: "La Belle Aurore";
+  bottom: -5px;
   left: 1%;
 }
 
@@ -188,6 +197,9 @@ form button:hover {
     padding-left: 10px;
     width: 100%;
     margin: 0 auto;
+  }
+  .info p {
+    padding: 10px 0;
   }
   form {
     width: 95%;

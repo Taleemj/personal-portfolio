@@ -48,7 +48,6 @@ const AboutMe = () => {
             different platforms.
           </p>
           <br />
-          <br />
           <p>
             I enjoy making conections and trying out new things, i love to
             increase my skills and knowledge and would love to advance in my

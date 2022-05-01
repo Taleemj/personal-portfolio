@@ -20,8 +20,8 @@ const Portfolio = () => {
       <div className="p-buttons">
         <button
           style={{
-            backgroundColor: htmlcss ? "transparent" : "#000",
-            color: htmlcss ? "#000" : "#fff",
+            backgroundColor: htmlcss ? "transparent" : "#8931ef",
+            color: htmlcss ? "#8931ef" : "#fff",
           }}
           onClick={() => setHtmlcss(false)}
         >
@@ -29,8 +29,8 @@ const Portfolio = () => {
         </button>
         <button
           style={{
-            backgroundColor: htmlcss ? "#000" : "transparent",
-            color: htmlcss ? "#fff" : "#000",
+            backgroundColor: htmlcss ? "#8931ef" : "transparent",
+            color: htmlcss ? "#fff" : "#8931ef",
           }}
           onClick={() => setHtmlcss(true)}
         >

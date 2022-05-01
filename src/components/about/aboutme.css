@@ -27,10 +27,11 @@
   content: "<h1>";
   color: #8931ef;
   position: absolute;
+  font-family: "La Belle Aurore";
   left: -5px;
-  font-size: 12px;
+  font-size: 18px;
   text-transform: lowercase;
-  opacity: 0.4;
+  opacity: 0.6;
 }
 
 .about h1::after {
@@ -38,31 +39,34 @@
   color: #8931ef;
   position: absolute;
   bottom: 2%;
+  font-family: "La Belle Aurore";
   right: 5px;
-  font-size: 12px;
+  font-size: 18px;
   text-transform: lowercase;
-  opacity: 0.4;
+  opacity: 0.6;
 }
 
 .about p {
   width: 35vw;
   color: #fff;
-  padding: 5px 0;
+  padding: 0;
   position: relative;
 }
 .about p::before {
   content: "<p>";
   color: #8931ef;
-  opacity: 0.4;
-  font-size: 12px;
+  opacity: 0.6;
+  font-family: "La Belle Aurore";
+  font-size: 18px;
   margin-right: 3px;
 }
 
 .about p::after {
   content: "</p>";
   color: #8931ef;
-  opacity: 0.4;
-  font-size: 12px;
+  font-family: "La Belle Aurore";
+  opacity: 0.6;
+  font-size: 18px;
   margin-right: 5px;
 }
 
@@ -196,18 +200,20 @@
   color: #8931ef;
   position: absolute;
   top: -5px;
+  font-family: "La Belle Aurore";
   left: -5px;
-  font-size: 12px;
+  font-size: 18px;
   text-transform: lowercase;
-  opacity: 0.4;
+  opacity: 0.6;
 }
 .technologies h3::after {
   content: "</h3>";
   position: absolute;
   bottom: 0;
-  font-size: 12px;
+  font-family: "La Belle Aurore";
+  font-size: 18px;
   text-transform: lowercase;
-  opacity: 0.4;
+  opacity: 0.6;
 }
 .list {
   display: flex;
@@ -254,12 +260,4 @@
   .technologies p {
     font-size: 15px;
   }
-  /* .about-container img {
-    position: absolute;
-    width: 10rem;
-    display: block;
-    z-index: -2;
-    top: 60%;
-    right: 30%;
-  } */
 }
